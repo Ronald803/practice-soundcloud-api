@@ -16,8 +16,7 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-// Pasos para desplegar en GithubPage
-
+// __________Pasos para desplegar en GithubPage
 // 1er. Instalar " npm install --save-dev gh-pages "
 // 2do. Configurar el package.json
     
