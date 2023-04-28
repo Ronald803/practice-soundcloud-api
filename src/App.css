@@ -1,7 +1,13 @@
+*{
+  font-family: 'Pacifico', cursive;
+}
 .app{
-  
+  background-image: url('https://s.yimg.com/ny/api/res/1.2/Oj90yV8fML0JNFnuCtQdGQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTY0MA--/https://media.zenfs.com/es-MX/animal_mx_205/d24079b026591b9618649dd56a16ae99');
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
-  background: linear-gradient(
+  width: 100vw;
+  /* background: linear-gradient(
     180deg,
     rgba(238, 69, 64, 1) 0%,
     rgba(199, 44, 65, 1) 15%,
@@ -9,7 +15,32 @@
     rgba(81, 10, 50, 1) 45%,
     rgba(45, 20, 44, 1) 100%
   );
+  height: 100vh; */
 }
 .carouselContainer{
-  width: 700px;
+  max-width: 400px;
+  /* padding-top: 40px; */
+}
+
+.barra-nav{
+  height: 10vh;
+}
+
+.bod{
+  width: 100%;
+  height: 90vh;
+}
+.sky{
+  /* background-image: url('../public/img/stars-sky.gif');   */
+  
+  /* background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8ccb93a1-4fc3-488c-9790-ce9dc8989364/d9npc2o-57e64426-9dc7-4537-a0fe-0a02efca027d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhjY2I5M2ExLTRmYzMtNDg4Yy05NzkwLWNlOWRjODk4OTM2NFwvZDlucGMyby01N2U2NDQyNi05ZGM3LTQ1MzctYTBmZS0wYTAyZWZjYTAyN2QuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.neCLghOii--lZWFDPr57J6I9fZ039ZypAvdVVaX8TVI');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw; */
+}
+.vertical-align{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

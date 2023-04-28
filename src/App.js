@@ -1,17 +1,27 @@
 import './App.css';
 import Carouser from './components/Carouser';
+import Lyrics from './components/Lyrics';
+import NameOfTheBand from './components/NameOfTheBand';
+import NavBar from './components/NavBar';
+import PlayList from './components/PlayList';
 import Songs from './components/Songs';
 
 
 function App() {
   return (
     <div className='app'>
-      <header>
-      </header>
-      {/* <Songs></Songs> */}
-      <div className='carouselContainer'>
-        <Carouser></Carouser>
-      </div>
+        <NavBar></NavBar>
+        <div className='row py-2 bod'>
+          <div className='col-sm-3'>
+            <NameOfTheBand></NameOfTheBand>
+          </div>
+          <div className='col-sm-6 container d-flex justify-content-center'>
+            <Carouser></Carouser>
+          </div>
+          <div className='col-sm-3'>
+            <PlayList></PlayList>
+          </div>
+        </div>
     </div>
   );
 }
