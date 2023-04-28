@@ -16,7 +16,7 @@ function App() {
             <NameOfTheBand></NameOfTheBand>
           </div>
           <div className='col-sm-6 container d-flex justify-content-center'>
-            {/* <Carouser></Carouser> */}
+            <Carouser></Carouser>
           </div>
           <div className='col-sm-3'>
             <PlayList></PlayList>

@@ -9,7 +9,7 @@ const Song = (props) => {
             </div>
             <div className='' >
                 <div className='mx-3'>
-                    <img className='d-block w-100' src='../img/album.jpg' alt="album photo"/>
+                    <img className='d-block w-100' src='https://i1.sndcdn.com/artworks-o6GT2Rayjm9vGtfe-Fa1rTA-t500x500.jpg' alt="album photo"/>
                 </div>
             </div>
             <div className='card-body'>
