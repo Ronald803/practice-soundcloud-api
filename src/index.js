@@ -30,7 +30,7 @@ reportWebVitals();
 //       "deploy": "gh-pages -d build"    ////nuevo
 //     },
 //     "homepage": "https://Ronald803.github.io/practice-api-soundcloud"
-// 3ero. npm run build
+// 3ero. npm run deploy
 // 4to.  git add .
 // 5to.  git commit -m 'deploying to githubpages'
 // 6to.  git push
