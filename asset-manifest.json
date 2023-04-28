@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/practice-soundcloud-api/static/css/main.432424ed.css",
-    "main.js": "/practice-soundcloud-api/static/js/main.55c6f08f.js",
+    "main.js": "/practice-soundcloud-api/static/js/main.bc05f0da.js",
     "static/js/787.9d3d47a7.chunk.js": "/practice-soundcloud-api/static/js/787.9d3d47a7.chunk.js",
     "index.html": "/practice-soundcloud-api/index.html",
     "main.432424ed.css.map": "/practice-soundcloud-api/static/css/main.432424ed.css.map",
-    "main.55c6f08f.js.map": "/practice-soundcloud-api/static/js/main.55c6f08f.js.map",
+    "main.bc05f0da.js.map": "/practice-soundcloud-api/static/js/main.bc05f0da.js.map",
     "787.9d3d47a7.chunk.js.map": "/practice-soundcloud-api/static/js/787.9d3d47a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.432424ed.css",
-    "static/js/main.55c6f08f.js"
+    "static/js/main.bc05f0da.js"
   ]
 }
