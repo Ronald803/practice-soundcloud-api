@@ -15,3 +15,22 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// Pasos para desplegar en GithubPage
+
+// 1er. Instalar " npm install --save-dev gh-pages "
+// 2do. Configurar el package.json
+    
+//     "scripts": {
+//       "start": "react-scripts start",
+//       "build": "react-scripts build",
+//       "test": "react-scripts test",
+//       "eject": "react-scripts eject",
+//       "predeploy": "npm run build",    ////nuevo
+//       "deploy": "gh-pages -d build"    ////nuevo
+//     },
+//     "homepage": "https://Ronald803.github.io/practice-api-soundcloud"
+// 3ero. npm run build
+// 4to.  git add .
+// 5to.  git commit -m 'deploying to githubpages'
+// 6to.  git push
